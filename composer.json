@@ -1,0 +1,25 @@
+{
+  "name": "zeroem/deferred-request-persister-bundle",
+  "description": "Doctrine ORM implementation of deferred-request-persister",
+  "type": "symfony-bundle",
+  "keywords": ["defer", "request", "bundle", "http", "persister"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Darrell Hamilton",
+      "email": "darrell.noice@gmail.com"
+    }
+  ],
+
+  "require": {
+    "zeroem/deferred-request-bundle": "dev-master"
+  },
+
+  "autoload": {
+    "psr-0": {
+      "Zeroem\\DeferredRequestPersisterBundle": ""
+    }
+  },
+
+  "target-dir": "Zeroem/DeferredRequestPersisterBundle"
+}
