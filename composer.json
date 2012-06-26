@@ -15,6 +15,10 @@
     "zeroem/deferred-request-bundle": "dev-master"
   },
 
+  "provide": {
+    "deferred-request-persister": "*"
+  },
+
   "autoload": {
     "psr-0": {
       "Zeroem\\DeferredRequestPersisterBundle": ""
