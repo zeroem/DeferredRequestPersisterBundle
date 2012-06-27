@@ -1,0 +1,60 @@
+{
+    "hash": "4fc95840324484c7da86077a9c1be2ab",
+    "packages": [
+        {
+            "package": "doctrine/common",
+            "version": "2.2.x-dev",
+            "source-reference": "1e0aa60d109c630d19543d999f12e2852ef8f932",
+            "commit-date": "1334303204"
+        },
+        {
+            "package": "doctrine/dbal",
+            "version": "2.2.0-RC3"
+        },
+        {
+            "package": "doctrine/orm",
+            "version": "2.2.x-dev",
+            "source-reference": "5f66c65c9a8d984899903b54215d0249a45b92d6",
+            "commit-date": "1338138826"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "dev-master",
+            "source-reference": "d0e154725c85a3ec5bc6760a59cc2769b8a17ae5",
+            "commit-date": "1340724924"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "alias-pretty-version": "1.8.x-dev",
+            "alias-version": "1.8.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "cd049dac38dda63bd0fb264bbd939a547c7c4b1a",
+            "commit-date": "1340727866"
+        },
+        {
+            "package": "zeroem/deferred-request-bundle",
+            "version": "dev-master",
+            "source-reference": "9580fe205879a67a7029fd334e7ddd3f95639875",
+            "commit-date": "1340692270"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "zeroem/deferred-request-bundle": 20,
+        "symfony/http-foundation": 20
+    }
+}
