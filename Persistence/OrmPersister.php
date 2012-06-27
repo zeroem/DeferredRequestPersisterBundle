@@ -2,8 +2,10 @@
 
 namespace Zeroem\DeferredRequestPersisterBundle\Persistence;
 
-use Doctrine\ORM\EntityManager;
+use Doctrine\Common\Persistence\ObjectManager;
+
 use Symfony\Component\HttpFoundation\Request;
+
 use Zeroem\DeferredRequestPersisterBundle\Entity\DeferredRequest;
 use Zeroem\DeferredRequestBundle\Persistence\PersistenceInterface;
 
@@ -11,7 +13,7 @@ class OrmPersister implements PersistenceInterface
 {
   private $entityManager;
   
-  public function __construct(EntityManager $entityManager) {
+  public function __construct(ObjectManager $entityManager) {
     $this->entityManager = $entityManager;
   }
 
