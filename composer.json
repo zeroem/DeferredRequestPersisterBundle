@@ -12,7 +12,9 @@
   ],
 
   "require": {
-    "zeroem/deferred-request-bundle": "dev-master"
+    "zeroem/deferred-request-bundle": "dev-master",
+    "symfony/http-foundation": "dev-master",
+    "doctrine/orm": "2.2.*"
   },
 
   "provide": {
